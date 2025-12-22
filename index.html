@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">L</div>
+        <div class="logo-text">Portfolio website</div>
+      </a>
+
+      <nav>
+        <ul id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="mailto:khaleedjimoh05@gmail.com" class="button">Contact me</a></li>
+        </ul>
+        <a href="#" class = "mobile-toggle" onClick="toggleMobileMenu();">
+          <svg class=" w-6 h-6 text-gray-800 
+          dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+           width="24" height ="24" fill="none"viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/></svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class = "hero container">
+        <div class ="hero-blue">
+          <div>
+            <h1><small> Hi I'm</small>
+              Khaleed Jimoh
+            </h1>
+            <p>
+              I am a Computer Engineering student at the University of Guelph with a passion for embedded systems, AI, 
+              and full-stack development. I enjoy building real, functional engineering solutions from autonomous vehicles 
+              to full-stack dashboards used by 30+ students. I’m currently on the Dean’s Honour List and constantly exploring 
+              ways to combine hardware and software to solve meaningful problems. Whether it’s optimizing backend performance, 
+              designing circuits, improving mechanical stability, or automating data analysis, I love diving deep into technical 
+              challenges and learning rapidly along the way.<span>I am actively seeking a Summer 2026 internship in 
+              software engineering, embedded systems, robotics, or data engineering where I can contribute, grow, and 
+              build impactful technology with experienced teams. </span>
+            </p>
+            <div class="call-to-action">
+              <a href="./Khaleed_Jimoh_Resume_interns.pdf" class="button black">View Resume</a>
+              <a href="mailto:khaleedjimoh05@gmail.com" class="button white">Contact Me</a>
+            </div>
+            <div class="social-links">
+              <a href = "#">
+                <img src="./imgs/github.png" alt="GitHub" width="48px">
+              </a>
+              <a href = "#">
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48px">
+            </div>
+          </div>
+        </div>
+        <div class ="hero-yellow">
+          <img src="./imgs/hero-image.png" alt="Khaleed's Photo" width="100%">
+        </div>
+      </section>
+      <section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+				</div>
+			</div>
+		</section>
+    <section id = "skills" class="skills container">
+      <h2>
+        <small>About me</small>
+        Skills
+      </h2>
+      <div class="holder-blue">
+        <div class="left-column">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>javascript</li>
+          </ul>
+          <h3>Backend</h3>
+          <ul>
+            <li>Python</li>
+            <li>Django Rest Framework</li>
+            <li>Sql</li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h3> A bit about me</h3>
+          <p>Hi I'm khaleed....</p>
+          <p>
+            I'm currently working on a project...
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="work-experience container">
+      <h2>
+        <small>Recent</small>
+        Work Experience
+      </h2>
+      <div class = "jobs">
+        <article>
+          <figure>
+            <div> <img src="./imgs/workplace-1.jpg" alt="Workplace 1 -" width="100%"/>
+            <figcaption> Workplace- 1</figcaption>
+            </div>
+          </figure>
+          <h3> Workplace- 1</h3>
+            <div></div>
+            <p>This is an example description for a workplace.
+            </p>
+        </article>
+                <article>
+          <figure>
+            <div> <img src="./imgs/workplace-2.jpg" alt="Workplace 2 -" width="100%"/>
+            <figcaption> Workplace- 2</figcaption>
+            </div>
+          </figure>
+          <h3> Workplace- 2</h3>
+            <div></div>
+            <p>This is an example description for a workplace.
+            </p>
+        </article>
+      </div> 
+    </section>
+    <section id="projects"class="bento">
+      <h2>
+        <small>
+          Recent
+        </small>
+        Projects
+      </h2>
+      <div class="bento-grind">
+        <a href="#" class="bento-item">
+          <img src="./imgs/workplace-1.jpg" alt="Workplace 1 -" width="100%"/>
+        </a>
+        <a href="#" class="bento-item">
+          <img src="./imgs/workplace-2.jpg" alt="Workplace 1 -" width="100%"/>
+        </a>
+        <a href="#" class="bento-item">
+          <img src="./imgs/workplace-1.jpg" alt="Workplace 1 -" width="100%"/>
+        </a>
+        <a href="#" class="bento-item">
+          <img src="./imgs/workplace-4.jpg" alt="Workplace 1 -" width="100%"/>
+        </a>
+      </div>
+    </section>
+    <section class = "chatbot container">
+      <h2>
+        <small>Talk to me</small>
+        Chatbot
+      </h2>
+      <div class="chatbot-blue">
+        <div class="chatbot-info">
+          <h3> Azure AI Chatbot</h3>
+          <p>I've put together a chatbot
+            here which knows all my skills, 
+            projects, experience and has a copy 
+            of my cv/resume.You can use it to ask questions 
+            about me to get a better idea of who I am and what I've done.
+          </p>
+          <p> You can also download my resume here if
+            you want to take a look at it.I am actively 
+            seeking a Summer 2026 internship in software engineering, 
+            embedded systems, robotics, or data engineering where 
+            I can contribute, grow, and build impactful technology with experienced teams. 
+          </p>
+          <a href="./Khaleed_Jimoh_Resume_interns.pdf" class="button black">Download Resume</a>
+        </div>
+        <div class="chat-box">
+          <div class="scroll-area">
+            <ul id ="chat-log">
+              <li> <span class="avatar bot">AI</span>
+                <div class="message">
+                  Hi,I'm a friendly chatbot here to help you 
+                  interact with Khaleed's portfolio and CV. How can I assist you today?
+                </div>
+              </li> 
+              <li> <span class="avatar user">User</span>
+                <div class="message">
+                  I have a question to ask about Khaleed's resume.
+                </div>
+              </li> 
+            </ul>
+          </div>
+          <div class="chat-message">
+            <input type="text" placeholder="Hey Khaleed what skills are you best at?">
+            <button class="button black">Send</button>
+          </div>
+        </div>
+
+    </section>
+    </main>
+  </body>
+</html>
