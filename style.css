@@ -135,13 +135,13 @@ header{
 .container{
     max-width: 1440px;
     margin: auto;
-    gap: 30px;
-    margin-top:30px;
-    margin-bottom:30px;
+    gap: 15px;
+    margin-top:15px;
+    margin-bottom:15px;
 
     @media (max-width:1440px){
-        padding-left:30px;
-        padding-right:30px;
+        padding-left:20px;
+        padding-right:20px;
     }
 }
 
@@ -180,7 +180,7 @@ header{
 h1{
     font-size:64px;
     line-height:1.1;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     small {
         display:block;
         font-weight: 100;
@@ -194,7 +194,7 @@ h1{
 
 .hero{
     display:flex;
-    gap: 30px;
+    gap: 15px;
     @media (max-width: 1024px){
         flex-direction: column;
     }
@@ -202,13 +202,13 @@ h1{
         flex:1;
         background-color: var(--blue-100);
         border-radius: 30px;
-        padding: 30px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         
         p {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             line-height: 1.7;
         }
         
@@ -218,8 +218,8 @@ h1{
             }
         }
         .call-to-action{
-            margin-top:20px;
-            margin-bottom:20px;
+            margin-top:15px;
+            margin-bottom:15px;
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
@@ -243,7 +243,7 @@ h1{
         flex:1;
         background-color: var(--blue);
         border-radius: 30px;
-        padding:30px;
+        padding:20px;
         display:flex;
         justify-content: center;
         align-items: flex-end;
@@ -263,7 +263,7 @@ h1{
 .logos {
 	background-color: var(--base-100);
 	border-radius:30px;
-	padding:30px 0px;
+	padding:20px 0px;
 	@media (max-width:1440px){
 		border-radius:0px;
 	}
@@ -299,7 +299,7 @@ h2{
     margin-bottom: 10px;
     text-align: center;
     color: var(--base-800);
-    padding:30px;
+    padding:15px;
     small{
         display: block;
         font-weight:100;
@@ -308,6 +308,7 @@ h2{
     }
     @media(max-width:1024px){
         font-size:48px;
+        padding:10px;
     }
 }
 
@@ -315,7 +316,7 @@ h3{
     font-size: 32px;
     font-weight:600;
     line-height:1.2;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--base-800);
 }
 
@@ -323,7 +324,7 @@ h3{
 	.holder-blue {
 		background-color: var(--blue-100);
 		border-radius:30px;
-		padding:30px;
+		padding:20px;
 		display:flex;
 		@media(max-width:1024px){
 			flex-direction:column;
@@ -334,7 +335,7 @@ h3{
 				list-style-type: none;
 				gap:10px;
 				margin-right:100px;
-				margin-bottom:20px;
+				margin-bottom:15px;
 				li {
 					display:inline-block;
 					background-color: var(--blue-400);
@@ -352,7 +353,7 @@ h3{
 		.right-column {
 			flex:1;
 			p {
-				margin-bottom:20px;
+				margin-bottom:15px;
 				line-height: 1.7;
 			}
 		}
@@ -362,13 +363,13 @@ h3{
 .work-experience {
 	.jobs {
 		display:flex;
-		gap:30px;
+		gap:15px;
 		@media(max-width:1024px){
 			flex-direction:column;
 		}
 		article {
 			background-color: var(--yellow-100);
-			padding:30px;
+			padding:20px;
 			border-radius:30px;
 			flex:1;
 			transition: all 0.3s ease;
@@ -380,7 +381,7 @@ h3{
 			}
 			
 			h3 {
-				margin-top:20px;
+				margin-top:15px;
 				margin-bottom:10px;
 			}
 			div {
@@ -438,7 +439,7 @@ h3{
 .bento{
     .bento-grid{
         display:grid;
-        grid-gap:30px;
+        grid-gap:15px;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 1fr);
         height: 960px;
@@ -449,12 +450,12 @@ h3{
         @media(max-width:768px){
             display:flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 15px;
             height:auto;
         }
         
         .bento-item{
-            padding:30px;
+            padding:20px;
             background-color: var(--base-100);
             border-radius: 15px;
             position:relative;
@@ -477,7 +478,7 @@ h3{
                 z-index: 2;
                 background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
                 width: 100%;
-                padding: 20px;
+                padding: 15px;
                 transform: translateY(100%);
                 transition: transform 0.3s ease;
                 
@@ -537,8 +538,8 @@ h3{
 
 footer {
     text-align: center;
-    padding: 40px 30px;
+    padding: 25px 20px;
     color: var(--base);
     border-top: 1px solid rgba(0,0,0,0.1);
-    margin-top: 60px;
+    margin-top: 30px;
 }
